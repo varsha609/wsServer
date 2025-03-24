@@ -11,7 +11,7 @@ app.use(
         contentSecurityPolicy: {
             directives: {
                 defaultSrc: ["'self'"],
-                connectSrc: ["'self'", "wss://rajpatil-production.up.railway.app"]
+                connectSrc: ["'self'", "wss://wsserver-production-9341.up.railway.app"]
             }
         }
     })
